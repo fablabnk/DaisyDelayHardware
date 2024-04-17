@@ -1,10 +1,10 @@
-This repo documents the hardware design of a Daisy Seed-based Eurorack module called the Daisy Delay and contains the KiCad files for the project
+This repo documents the hardware design of a Daisy Seed-based Eurorack module called the Daisy Delay and contains the KiCad files for the project.
 
-The Daisy Delay is planned as simple 6HP delay-line module, but can easily be used as a development platform for any kind of mono-in/mono-out audio processor.
+The Daisy Delay is planned as simple 6HP mono delay-line module, but can easily be used as a development platform for any kind of single-in/single-out audio processor.
 
 This README gives an overview of the project, but there are also seperate notes for the [schematic](notes_schematic.md) and the [PCB](notes_pcb.md).
 
-The module was first prototyped in VCVRack, before converting it back to code that will run on the seed. For more details on the VCVRack plugin, see [here](https://github.com/fablabnk/VaseProtoPlugin/tree/delay_line_params).
+The module was first prototyped in VCVRack, before before being converted back to code that will run on the Seed. For more details on the VCVRack plugin, see [here](https://github.com/fablabnk/VaseProtoPlugin/tree/delay_line_params).
 
 # Components / Bill of Materials (BOM)
 
@@ -49,6 +49,5 @@ https://github.com/clacktronics/Eurorack_KiCAD_templates
 # Concerns / To Do
 
 - Simpler hardware module first...probably!
-
 - Symbol is only for Seed Rev 4 and we are now on Rev 7, but each Daisy Seed is pin to pin compatible with one another 
 - Revisions were only to replace depricated audio codecs. See here: https://daisy.nyc3.cdn.digitaloceanspaces.com/products/seed/Daisy_Seed_datasheet.pdf
