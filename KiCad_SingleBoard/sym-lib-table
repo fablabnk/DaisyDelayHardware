@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eurocad")(type "KiCad")(uri "/home/grm/Desktop/SynthLab/Libraries/eurocad/eurocad.kicad_sym")(options "")(descr ""))
+)
