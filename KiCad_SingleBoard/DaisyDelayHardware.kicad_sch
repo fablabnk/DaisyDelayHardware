@@ -6636,6 +6636,16 @@
 		)
 		(uuid "9044462b-21eb-45b8-a6ea-7ebdb4e944e6")
 	)
+	(text "Do we have 66.5K resistors?!?"
+		(exclude_from_sim no)
+		(at 107.95 195.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b7403c1-2632-49c7-8240-e6fd92f35ec0")
+	)
 	(text "Daisy Seed"
 		(exclude_from_sim no)
 		(at 206.502 74.676 0)
@@ -6657,6 +6667,16 @@
 			(justify left)
 		)
 		(uuid "b3f7c51f-3c53-498f-b8bc-8781af6108e4")
+	)
+	(text "Need op amp!\n"
+		(exclude_from_sim no)
+		(at 100.33 192.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f55d5e24-973e-46fa-96e7-df17407e4b85")
 	)
 	(global_label "3V3_A"
 		(shape input)
@@ -8424,7 +8444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
 			(at 139.3952 190.5 0)
 			(effects
 				(font
@@ -9389,7 +9409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eurocad:Alpha9mmPot"
+		(property "Footprint" "PCM_4ms_Potentiometer:Pot_9mm_DShaft"
 			(at 38.1 162.56 0)
 			(effects
 				(font
@@ -11443,7 +11463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eurocad:Alpha9mmPot"
+		(property "Footprint" "PCM_4ms_Potentiometer:Pot_9mm_DShaft"
 			(at 38.1 116.84 0)
 			(effects
 				(font
