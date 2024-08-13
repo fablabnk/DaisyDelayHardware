@@ -4539,7 +4539,7 @@
 		(uuid "3efd2c41-3671-41b7-ad2e-47fa96de085a")
 	)
 	(junction
-		(at 110.49 76.2)
+		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "457ae958-8c6d-46d2-a5b3-af152bafcb10")
@@ -4731,7 +4731,7 @@
 		(uuid "e68c72f0-0228-42b1-8abc-9ab64abf5251")
 	)
 	(junction
-		(at 110.49 91.44)
+		(at 119.38 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f85eb7a5-4eee-413e-90af-07fdb212b1e8")
@@ -5130,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 110.49 72.39)
+			(xy 119.38 104.14) (xy 119.38 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 88.9) (xy 110.49 91.44)
+			(xy 119.38 116.84) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5720,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 110.49 91.44)
+			(xy 100.33 119.38) (xy 119.38 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5790,7 +5790,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 110.49 81.28)
+			(xy 119.38 104.14) (xy 119.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6280,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 110.49 76.2)
+			(xy 100.33 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6310,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 91.44) (xy 110.49 93.98)
+			(xy 119.38 119.38) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6691,6 +6691,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c9dd9fd-ad97-4268-a881-5914e7a0ac11")
+	)
+	(text "To change to -12V"
+		(exclude_from_sim no)
+		(at 171.958 141.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "905ffb17-92a3-4d8e-83ab-0c1c99f35eb7")
 	)
 	(text "Daisy Seed"
 		(exclude_from_sim no)
@@ -10660,7 +10670,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 110.49 72.39 90)
+		(at 119.38 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10669,7 +10679,7 @@
 		(fields_autoplaced yes)
 		(uuid "78a27c93-2499-45b2-8f31-b572cce20aa2")
 		(property "Reference" "#PWR029"
-			(at 114.3 72.39 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10678,7 +10688,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 72.3899 90)
+			(at 115.57 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10687,7 +10697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 72.39 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +10706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 72.39 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 72.39 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10945,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 110.49 93.98 0)
+		(at 119.38 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10943,7 +10953,7 @@
 		(dnp no)
 		(uuid "855dae61-00aa-4cb7-9dc3-edce5b2eb1dc")
 		(property "Reference" "#PWR08"
-			(at 110.49 100.33 0)
+			(at 119.38 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,7 +10962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 99.06 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +10970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 93.98 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +10979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 93.98 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +10988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 93.98 0)
+			(at 119.38 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,7 +11437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 85.09 0)
+		(at 119.38 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11436,7 +11446,7 @@
 		(fields_autoplaced yes)
 		(uuid "a427e157-c219-47ee-bd7d-73c27b9b102d")
 		(property "Reference" "C8"
-			(at 113.665 83.82 0)
+			(at 122.555 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11455,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 113.665 86.36 0)
+			(at 122.555 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +11464,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 111.4552 88.9 0)
+			(at 120.3452 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 85.09 0)
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +11482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 85.09 0)
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,16 +12249,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 93.98 83.82 0)
+		(at 102.87 111.76 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc902014-cdae-43a6-a2df-8b3e2a5e7e35")
 		(property "Reference" "U3"
-			(at 92.71 82.5499 0)
+			(at 101.6 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +12266,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 92.71 85.0899 0)
+			(at 101.6 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12275,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 93.98 83.82 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12275,7 +12284,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 93.98 83.82 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +12293,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 93.98 83.82 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
